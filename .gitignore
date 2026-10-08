@@ -1,0 +1,30 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.db
+*.sqlite3
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+dist/
+.vite/
+coverage/
+.coverage
+npm-debug.log*
+
+# Editors / OS
+.kilo/
+.vscode/*
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
