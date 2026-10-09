@@ -7,8 +7,7 @@ class Settings(BaseSettings):
     ai_api_key: str = ""
     ai_model: str = "qwen2.5:1.5b"
     database_url: str = "sqlite:///./learnforge.db"
-    frontend_origins: str = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174"
-
+    frontend_origins: str = "http://localhost:5173,http://127.0.0.1:5173,http://localhost:5174,http://127.0.0.1:5174,https://learn-forge-five.vercel.app"
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
     @property
